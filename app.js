@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 app.get("/demo", (req, res) => {
   res.set("X-full-stack", "4life"); //add header "X-full-stack", "4life" in demo under network
   res.status(418);
-  res.send("I prefer coffee at /demo"); //screen output
+  res.send("CRUNCH time!! I prefer coffee and a starburst /demo"); //screen output
   console.log(`/demo ${port}`); //server console output
 });
 
